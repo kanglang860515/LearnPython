@@ -98,8 +98,7 @@ response = opener.open(url, timeout=10)                             # 获取数�
 
 
 # 使用Sockets代理
-import socks
-import socket
+
 
 socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 1080)
 socket.socket =socks.socksocket
