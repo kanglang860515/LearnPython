@@ -13,7 +13,10 @@
         print("L is list")
     if isinstance(L, list):
         print("L is list")
-        
+    if isinstance(L, (str,int,list))
+       print("L is (str,int,list))")
+
+
 #-- Python数据类型：哈希类型、不可哈希类型
     # 哈希类型，即在原地不能改变的变量类型，不可变类型。可利用hash函数查看其hash值，也可以作为字典的key
     "数字类型：int, float, decimal.Decimal, fractions.Fraction, complex"
